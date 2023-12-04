@@ -1,1 +1,3 @@
+The actual model, including both upstream and downstream components, is trained on TPUs. However, TPUs require reading tfrecord files from a Google Storage bucket. The notebooks provided here are capable of being trained using a GPU.
 
+The upstream model is trained using over 3 million data points for each currency pair. Due to the size limitations of files on GitHub, only a sample file is provided to demonstrate the process.
